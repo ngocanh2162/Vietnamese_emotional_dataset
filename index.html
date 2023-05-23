@@ -24,21 +24,47 @@
     <thead>
       <tr>
         <th>Sample</th>
-        <th>Audio</th>
+        <th>Neutral</th>
+        <th>Happy</th>
+        <th>Sad</th>
+        <th>Angry</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>Sample 1</td>
-        <td><audio controls><source src="audio/sample1.mp3" type="audio/mp3"></audio></td>
+        <td>Text</td>
+        <td>MOS_05</td>
+        <td>MOS_12</td>
+        <td>MOS_16</td>
+        <td>MOS_24</td>
       </tr>
       <tr>
-        <td>Sample 2</td>
-        <td><audio controls><source src="audio/sample2.mp3" type="audio/mp3"></audio></td>
+        <td>Ground-truth</td>
+        <td><audio controls><source src="audio/TTH_GT/MOS_05.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="audio/TTH_GT/MOS_12.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="audio/TTH_GT/MOS_16.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="audio/TTH_GT/MOS_24.wav" type="audio/wav"></audio></td>
       </tr>
       <tr>
-        <td>Sample 3</td>
-        <td><audio controls><source src="audio/sample3.mp3" type="audio/mp3"></audio></td>
+        <td>Baseline</td>
+        <td><audio controls><source src="audio/TTH_baseline/MOS_05.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="audio/TTH_baseline/MOS_12.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="audio/TTH_baseline/MOS_16.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="audio/TTH_baseline/MOS_24.wav" type="audio/wav"></audio></td>
+      </tr>
+      <tr>
+        <td>Tacotron2</td>
+        <td><audio controls><source src="audio/TTH_tacotron2/MOS_05.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="audio/TTH_tacotron2/MOS_12.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="audio/TTH_tacotron2/MOS_16.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="audio/TTH_tacotron2/MOS_24.wav" type="audio/wav"></audio></td>
+      </tr>
+      <tr>
+        <td>Proposed</td>
+        <td><audio controls><source src="audio/TTH_proposed/MOS_05.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="audio/TTH_proposed/MOS_12.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="audio/TTH_proposed/MOS_16.wav" type="audio/wav"></audio></td>
+        <td><audio controls><source src="audio/TTH_proposed/MOS_24.wav" type="audio/wav"></audio></td>
       </tr>
       <!-- Add more audio samples with appropriate table rows -->
     </tbody>
