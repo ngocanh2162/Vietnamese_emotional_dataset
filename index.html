@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TTH_LMH </title>
+  <title>Sample Audios</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
 </head>
 <body>
   <h1>Sample Audios</h1>
 
-  <ul>
-    <li><a href="audio/sample1.mp3">Sample 1</a></li>
-    <li><a href="audio/sample2.mp3">Sample 2</a></li>
-    <li><a href="audio/sample3.mp3">Sample 3</a></li>
-    <!-- Add more audio samples with appropriate URLs -->
-  </ul>
+  <table>
+    <thead>
+      <tr>
+        <th>Sample</th>
+        <th>Audio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sample 1</td>
+        <td><audio controls><source src="audio/sample1.mp3" type="audio/mp3"></audio></td>
+      </tr>
+      <tr>
+        <td>Sample 2</td>
+        <td><audio controls><source src="audio/sample2.mp3" type="audio/mp3"></audio></td>
+      </tr>
+      <tr>
+        <td>Sample 3</td>
+        <td><audio controls><source src="audio/sample3.mp3" type="audio/mp3"></audio></td>
+      </tr>
+      <!-- Add more audio samples with appropriate table rows -->
+    </tbody>
+  </table>
+
 </body>
 </html>
